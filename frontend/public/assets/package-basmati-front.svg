@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0c2340"/>
+      <stop offset="35%" stop-color="#14365d"/>
+      <stop offset="70%" stop-color="#1a4270"/>
+      <stop offset="100%" stop-color="#0f2946"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6d365"/>
+      <stop offset="50%" stop-color="#fda085"/>
+      <stop offset="100%" stop-color="#f6d365"/>
+    </linearGradient>
+    <linearGradient id="riceBowl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Bag Pouch Background Shape with Top Crimp and Handles -->
+  <!-- Top crimp seal -->
+  <rect x="50" y="30" width="500" height="28" rx="4" fill="#081729" stroke="#b45309" stroke-width="1.5"/>
+  <line x1="50" y1="38" x2="550" y2="38" stroke="#475569" stroke-dasharray="4,4"/>
+  <line x1="50" y1="44" x2="550" y2="44" stroke="#475569" stroke-dasharray="4,4"/>
+  <line x1="50" y1="50" x2="550" y2="50" stroke="#475569" stroke-dasharray="4,4"/>
+  <!-- Carrying punch handle -->
+  <rect x="240" y="36" width="120" height="14" rx="7" fill="#0f2946" stroke="#b45309"/>
+
+  <!-- Main Bag Body -->
+  <rect x="50" y="58" width="500" height="712" rx="16" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="2" filter="url(#shadow)"/>
+
+  <!-- Ornate Golden Borders & Header Motif -->
+  <rect x="68" y="76" width="464" height="676" rx="10" fill="none" stroke="#d97706" stroke-width="1.5" stroke-dasharray="8,2"/>
+  <rect x="74" y="82" width="452" height="664" rx="8" fill="none" stroke="#f59e0b" stroke-width="0.8"/>
+
+  <!-- Top Brand Seal -->
+  <g transform="translate(300, 125)">
+    <circle cx="0" cy="0" r="32" fill="#081729" stroke="#f59e0b" stroke-width="2"/>
+    <polygon points="0,-24 7,-8 24,-8 11,3 16,20 0,9 -16,20 -11,3 -24,-8 -7,-8" fill="#f59e0b"/>
+    <circle cx="0" cy="0" r="16" fill="#081729"/>
+    <text x="0" y="4" font-family="'Merriweather', serif" font-size="11" font-weight="bold" fill="#fef3c7" text-anchor="middle">FH</text>
+  </g>
+
+  <!-- Brand Title -->
+  <text x="300" y="180" font-family="'Merriweather', serif" font-size="28" font-weight="bold" fill="#fef3c7" text-anchor="middle" letter-spacing="3">FRESH HARVEST</text>
+  <text x="300" y="202" font-family="sans-serif" font-size="11" font-weight="600" fill="#fcd34d" text-anchor="middle" letter-spacing="4">TRADITION OF PURITY &amp; TASTE</text>
+
+  <!-- Product Ribbon -->
+  <path d="M120 220 L480 220 L460 255 L480 290 L120 290 L140 255 Z" fill="#78350f" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="300" y="252" font-family="'Merriweather', serif" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">ROYAL BASMATI RICE</text>
+  <text x="300" y="276" font-family="sans-serif" font-size="10" font-weight="bold" fill="#fef08a" text-anchor="middle" letter-spacing="3">AGED TO PERFECTION • EXTRA LONG GRAIN</text>
+
+  <!-- Central Graphic: Handi and Rice Grains -->
+  <g transform="translate(300, 370)">
+    <!-- Plate base -->
+    <ellipse cx="0" cy="35" rx="140" ry="24" fill="#09182b" opacity="0.6"/>
+    <!-- Traditional Handi bowl -->
+    <path d="M-85 10 C-80 50, 80 50, 85 10 C90 -5, -90 -5, -85 10 Z" fill="#b45309" stroke="#f59e0b" stroke-width="2"/>
+    <ellipse cx="0" cy="5" rx="84" ry="16" fill="#78350f"/>
+    <!-- Steaming basmati rice heap -->
+    <path d="M-72 4 C-50 -30, 50 -30, 72 4 Z" fill="url(#riceBowl)"/>
+    <!-- Grains detail -->
+    <ellipse cx="-20" cy="-6" rx="10" ry="3" fill="#ffffff" transform="rotate(-15 -20 -6)"/>
+    <ellipse cx="10" cy="-10" rx="12" ry="3" fill="#ffffff" transform="rotate(20 10 -10)"/>
+    <ellipse cx="35" cy="-2" rx="11" ry="3" fill="#ffffff" transform="rotate(-10 35 -2)"/>
+    <ellipse cx="-45" cy="0" rx="9" ry="2.5" fill="#ffffff" transform="rotate(35 -45 0)"/>
+    <!-- Saffron & Star Anise garnish -->
+    <circle cx="2" cy="-18" r="4" fill="#dc2626"/>
+    <path d="M-2 -22 L6 -14" stroke="#ea580c" stroke-width="2"/>
+  </g>
+
+  <!-- Features Strip -->
+  <g transform="translate(300, 445)">
+    <rect x="-190" y="0" width="380" height="28" rx="6" fill="#081729" stroke="#334155"/>
+    <text x="-125" y="18" font-family="sans-serif" font-size="9.5" font-weight="bold" fill="#cbd5e1" text-anchor="middle">✓ 100% NATURALLY AGED</text>
+    <text x="0" y="18" font-family="sans-serif" font-size="9.5" font-weight="bold" fill="#cbd5e1" text-anchor="middle">✓ AROMATIC KASHMIRI SEED</text>
+    <text x="125" y="18" font-family="sans-serif" font-size="9.5" font-weight="bold" fill="#cbd5e1" text-anchor="middle">✓ NON-STICKY TEXTURE</text>
+  </g>
+
+  <!-- MANDATORY STATUTORY DECLARATION PANEL (The focus of OCR / LMPC Inspection) -->
+  <rect x="85" y="490" width="430" height="240" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+
+  <!-- Panel Header Banner -->
+  <rect x="85" y="490" width="430" height="22" rx="8" fill="#0f172a"/>
+  <rect x="85" y="504" width="430" height="8" fill="#0f172a"/>
+  <text x="300" y="505" font-family="sans-serif" font-size="9" font-weight="bold" fill="#f8fafc" text-anchor="middle" letter-spacing="1">MANDATORY DECLARATIONS (UNDER LEGAL METROLOGY ACT, 2009)</text>
+
+  <!-- Consumer Care Box (Upper half) -->
+  <g id="box-consumer-care">
+    <rect x="95" y="520" width="220" height="42" rx="4" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="102" y="533" font-family="sans-serif" font-size="8.5" font-weight="bold" fill="#1e293b">CONSUMER CARE DETAILS:</text>
+    <text x="102" y="546" font-family="sans-serif" font-size="7.5" fill="#475569">Email: care@freshharvest.in</text>
+    <text x="102" y="556" font-family="sans-serif" font-size="7.5" fill="#475569">Toll-Free Helpline: 1800-200-4491</text>
+  </g>
+
+  <!-- FSSAI & Quality Marks (Top right of statutory panel) -->
+  <g transform="translate(330, 520)">
+    <rect x="0" y="0" width="175" height="42" rx="4" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="8" y="14" font-family="sans-serif" font-size="8" font-weight="bold" fill="#0f172a">fssai</text>
+    <text x="35" y="14" font-family="sans-serif" font-size="7" fill="#64748b">Lic. No. 10819003000214</text>
+    <!-- Vegetarian Green Dot Logo -->
+    <rect x="8" y="22" width="16" height="16" fill="#ffffff" stroke="#15803d" stroke-width="1.2"/>
+    <circle cx="16" cy="30" r="5" fill="#15803d"/>
+    <text x="30" y="33" font-family="sans-serif" font-size="7" font-weight="600" fill="#15803d">PROCESSED &amp; PACKED IN INDIA</text>
+  </g>
+
+  <!-- Manufacturer & Packer Details (Bottom left) -->
+  <g id="box-manufacturer">
+    <rect x="95" y="570" width="220" height="74" rx="4" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="102" y="583" font-family="sans-serif" font-size="8" font-weight="bold" fill="#0f172a">MANUFACTURED &amp; PACKED BY:</text>
+    <text x="102" y="595" font-family="sans-serif" font-size="7.5" font-weight="600" fill="#1e293b">FreshHarvest Foods Pvt. Ltd.</text>
+    <text x="102" y="606" font-family="sans-serif" font-size="7" fill="#475569">Plot No. 44, Industrial Area, Phase II,</text>
+    <text x="102" y="616" font-family="sans-serif" font-size="7" fill="#475569">Karnal, Haryana - 132001 (India)</text>
+    <text x="102" y="627" font-family="sans-serif" font-size="6.5" fill="#64748b">LMPC Reg. No: LMPC-HR-2024-004912</text>
+    <text x="102" y="637" font-family="sans-serif" font-size="6.5" fill="#64748b">Country of Origin: INDIA</text>
+  </g>
+
+  <!-- Packaging Date & Batch (Bottom center) -->
+  <g id="box-date-batch">
+    <rect x="95" y="650" width="220" height="42" rx="4" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="102" y="663" font-family="sans-serif" font-size="7.5" font-weight="bold" fill="#0f172a">DATE OF PACKAGING:</text>
+    <text x="102" y="674" font-family="sans-serif" font-size="9" font-weight="bold" fill="#1e293b">08/2026</text>
+    <text x="102" y="685" font-family="sans-serif" font-size="7" fill="#64748b">BATCH / LOT NO: FHR-2026-AUG-84B</text>
+  </g>
+
+  <!-- Net Quantity Declaration (Right panel - Violates Font Height) -->
+  <g id="box-net-quantity" transform="translate(330, 570)">
+    <rect x="0" y="0" width="175" height="52" rx="4" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="8" y="14" font-family="sans-serif" font-size="8" font-weight="bold" fill="#0f172a">NET QUANTITY:</text>
+    <!-- Note: font rendered small ~ 12px = approx 2.4mm representation -->
+    <text x="8" y="32" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a">5 kg</text>
+    <text x="8" y="44" font-family="sans-serif" font-size="6.5" fill="#94a3b8">(Standard tare tolerance compliant)</text>
+  </g>
+
+  <!-- Maximum Retail Price (MRP) - VIOLATION: Unit Sale Price is Missing -->
+  <g id="box-mrp" transform="translate(330, 628)">
+    <rect x="0" y="0" width="175" height="64" rx="4" fill="#fef2f2" stroke="#fecaca"/>
+    <text x="8" y="15" font-family="sans-serif" font-size="8" font-weight="bold" fill="#991b1b">MAXIMUM RETAIL PRICE (MRP):</text>
+    <text x="8" y="34" font-family="sans-serif" font-size="15" font-weight="bold" fill="#b91c1c">₹ 620.00</text>
+    <text x="8" y="46" font-family="sans-serif" font-size="7" font-weight="600" fill="#7f1d1d">(Inclusive of all taxes)</text>
+    <!-- Highlight notice: Missing USP -->
+    <text x="8" y="56" font-family="sans-serif" font-size="6" font-style="italic" fill="#ef4444">! Unit Sale Price (USP) Not Declared !</text>
+  </g>
+
+  <!-- Barcode on bottom margin -->
+  <g transform="translate(95, 700)">
+    <!-- Barcode stripes -->
+    <rect x="0" y="0" width="2" height="20" fill="#0f172a"/>
+    <rect x="4" y="0" width="1" height="20" fill="#0f172a"/>
+    <rect x="7" y="0" width="3" height="20" fill="#0f172a"/>
+    <rect x="12" y="0" width="2" height="20" fill="#0f172a"/>
+    <rect x="16" y="0" width="1" height="20" fill="#0f172a"/>
+    <rect x="19" y="0" width="4" height="20" fill="#0f172a"/>
+    <rect x="25" y="0" width="1" height="20" fill="#0f172a"/>
+    <rect x="28" y="0" width="2" height="20" fill="#0f172a"/>
+    <rect x="32" y="0" width="3" height="20" fill="#0f172a"/>
+    <rect x="37" y="0" width="1" height="20" fill="#0f172a"/>
+    <rect x="40" y="0" width="2" height="20" fill="#0f172a"/>
+    <rect x="44" y="0" width="1" height="20" fill="#0f172a"/>
+    <rect x="47" y="0" width="3" height="20" fill="#0f172a"/>
+    <rect x="52" y="0" width="2" height="20" fill="#0f172a"/>
+    <rect x="56" y="0" width="1" height="20" fill="#0f172a"/>
+    <rect x="60" y="0" width="2" height="20" fill="#0f172a"/>
+    <text x="70" y="14" font-family="monospace" font-size="7" fill="#64748b">8 901234 567890</text>
+  </g>
+
+  <!-- Best Before declaration -->
+  <text x="400" y="712" font-family="sans-serif" font-size="7" font-weight="600" fill="#475569" text-anchor="middle">BEST BEFORE 24 MONTHS FROM PACKAGING</text>
+
+  <!-- Bottom seam -->
+  <rect x="50" y="760" width="500" height="10" fill="#081729" rx="2"/>
+</svg>

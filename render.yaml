@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: nirikshak-ai
+    env: docker
+    plan: starter
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      - key: FLAGS_enable_pir_api
+        value: "0"
+      - key: PADDLE_PDX_CACHE_HOME
+        value: /tmp/paddlex
+      - key: NIRIKSHAK_FRONTEND_DIST
+        value: /app/frontend/dist
+      - key: NIRIKSHAK_PRELOAD
+        value: "0"

@@ -1,0 +1,11 @@
+streamlit
+paddlepaddle==3.3.1
+paddleocr
+opencv-python-headless
+numpy
+pandas
+Pillow
+reportlab
+fastapi
+uvicorn[standard]
+python-multipart
