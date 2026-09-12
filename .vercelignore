@@ -1,9 +1,6 @@
-backend/
-Dockerfile
-render.yaml
-START_NIRIKSHAK.bat
 frontend/node_modules/
 frontend/dist/
+backend/.venv/
 **/__pycache__/
 **/*.pyc
 .DS_Store
