@@ -10,12 +10,7 @@
     "backend": {
       "root": "backend",
       "framework": "fastapi",
-      "entrypoint": "api.py",
-      "excludeFiles": [
-        ".venv/**",
-        "__pycache__/**",
-        "*.pyc"
-      ]
+      "entrypoint": "api.py"
     }
   },
   "rewrites": [
